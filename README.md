@@ -13,7 +13,7 @@ The dataset consists of:
 
 ## Process GUI screenshot
 
-![The process GUI in the pipeline editor](/Images/020_processGUI.png)
+![The process GUI in the pipeline editor](/assets/020_processGUI.png)
 
 ## Options description
 ### Dataset dependant options:
@@ -41,31 +41,31 @@ The dataset consists of:
 ## How to use the process
 
 - This process doesn't work on raw files, so that you could need to import your raw files in the Brainstorm database: to do this, just right-click on the file you want to use and select the "Import in database" item.
-![Raw file importing](/Images/001_import_raw.png)
+![Raw file importing](/assets/001_import_raw.png)
 
 - Set the proposed options leaving unchecked the "Create a separate folder for each event type" item, then press the "Import" button.
-![Importation options](/Images/002_import_panel.png)
+![Importation options](/assets/002_import_panel.png)
 
 - In the database explorer, drag and drop the file you want to work out into the "Process1" tab at the bottom of the window, then click on the "RUN" button on the left.
-![The file selection](/Images/003_drag_drop_run.png)
+![The file selection](/assets/003_drag_drop_run.png)
 
 - In the Pipeline editor window, click on the first button to see all the categories of processes available: choose the "Test" category, then click on the "FSS through Simulated Annealing" item.
-![The process selection](/Images/010_pipeline_editor.png)
+![The process selection](/assets/010_pipeline_editor.png)
 
 - Set the [options](#options-description) in the process GUI as you need, then click on the "Run" button at the bottom of the window to make the process start. You can check the SEF values in the windows appearing before the optimization starts.
-![The checking window](/Images/025_area_related_values.png)
+![The checking window](/assets/025_area_related_values.png)
 
 - While the optimization process is running, you should see on your screen something like the image below.
-![The Matlab screen while the process is running](/Images/030_plugin_in_progress.png)
+![The Matlab screen while the process is running](/assets/030_plugin_in_progress.png)
 
 - When the process ends its job, two lines appear at the bottom of the Matlab Command Window: the first indicates which stopping criteria caused the algorithm to end, the second shows how much time was spent to reach the end.
-![The Matlab screen at the end of the processing](/Images/040_process_end.PNG)
+![The Matlab screen at the end of the processing](/assets/040_process_end.PNG)
 
 - A new file is now available in the database explorer: the first part of the file's name stands for the extracted brain area, while the suffix "fss" means that the process has been applied. In the figure below there are 2 files, each one resulting from a different run.
-![The new files resulting from the processing](/Images/050_new_files.png)
+![The new files resulting from the processing](/assets/050_new_files.png)
 
 - To visualize the signals distribution on the scalp, obtained through the FSS process, right-click on the new file, then click on the "EEG" item and finally on the "2D Disc" item as shown below.
-![The new files resulting from the processing](/Images/060_visual_cmd.png)
+![The new files resulting from the processing](/assets/060_visual_cmd.png)
 
 - If everything went well, you should see the scalp distribution of the extracted signals.
-![The resulting visualization](/Images/070_final_view.png)
+![The resulting visualization](/assets/070_final_view.png)
