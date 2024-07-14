@@ -23,7 +23,7 @@ function sProcess = GetDescription()
     sProcess.Category    = 'File';
     sProcess.SubGroup    = 'Test';
     sProcess.Index       = 70;
-    sProcess.Description = 'https://github.com/lazarus171/FSS_Plugin_for_Brainstorm';
+    sProcess.Description = 'https://github.com/FSS';
     % === Input type definition
     sProcess.InputTypes  = {'recordings', 'data'};
     sProcess.OutputTypes = {'recordings', 'data'};
