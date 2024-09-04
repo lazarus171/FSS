@@ -20,7 +20,7 @@ The dataset consists of:
 Plugin installation
 -------------------
 
-To install the FSS plugin, just save the **process_fss.m** file into **user_folder/.brainstorm/process/**
+To install the FSS plugin, just download the **process_fss.m** file `from HERE <https://github.com/lazarus171/FSS_Plugin_for_Brainstorm>`_ and save it into **user_folder/.brainstorm/process/**
 where **user_folder** stands for your Brainstorm installation folder.
 This will make the process available in the pipeline editor menus,
 when you use the Process1 or Process2 tabs.
